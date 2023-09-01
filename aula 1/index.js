@@ -1,0 +1,12 @@
+const nome = "Douglas";
+const sobrenome = "José";
+const idade = 24;
+const peso = 70;
+const altura = 1.8;
+const dataAtual = new Date();
+const anoAtual = dataAtual.getFullYear();
+let imc = peso / (altura * altura);
+let anoNascimento = anoAtual - idade;
+console.log(`${nome} ${sobrenome} tem ${idade} anos pesa ${peso} kg`);
+console.log(`tem ${altura} de altura e seu imc e de ${imc}`);
+console.log(`${nome} nasceu em  ${anoNascimento}`);
